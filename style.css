@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(118,214,242,0.9025735294117647) 100%); /*Deixa o fundo com transicao de cores*/
+    min-height: 100vh; /*aumenta o site conforme o tamanho da tela (responsividade)*/
+}
+
+.page {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 65px
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 55px;
+}
+
+ul {
+    margin: 0px;
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    padding: 0px;
+}
+
+a {
+    color: #1F1534;
+    text-decoration: none; /*funcao tirar o risco de link*/
+    opacity: 0.5;
+}
+
+
+ul li a:hover {
+    font-weight: bold /*funcao ao passa o mouse fica negrito*/
+}
+
+h1,ul {
+    font-family: 'Mulish', sans-serif; 
+    
+}
+
+main {
+    display: flex; /*coloca os elementos ao lado*/
+    align-items: center; /* centraliza os elementos */
+    justify-content: space-between; /*cria espaco alinhado entre os elementos*/
+}
+
+
+h1 {
+    font-size: 49px;
+    line-height: 56px;
+    color: #1F1534;
+    font-weight: normal;
+}
+
+h1 span {
+    color: #89C5CC;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+    font-family: 'Open Sans', sans-serif;
+    margin: 40px 0;
+}
+
+button {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+
+    background: #69B99D;
+    border: 0px;
+    padding: 14px 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #4ea788;
+}
+
+footer {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+footer a {
+    font-weight: bold;
+}
+
+
+#balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
